@@ -22,7 +22,6 @@ torch.autograd.set_detect_anomaly(True)
 
 if __name__ == "__main__":
     
-
     root_dir = Path("/mnt/slurmfs-3090node2/user_data/kzhang740/gs3d_resplit_251213")
     data_module = GS3DDataModule(root_dir=root_dir, batch_size=3)
 
